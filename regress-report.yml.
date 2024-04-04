@@ -18,7 +18,7 @@ bugreports:
       зайти на сайт(https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
       нажать на log in to comment
     expected-result: |
-      должна появится форма регистрации на данном сайте 
+      должна появится форма регистрации на данном сайте (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
     actual-result: |
-      Вы получаете форму регистрации на стороннем сайте в отдельном окне
+      Вы получаете форму регистрации на стороннем сайте, в отдельном окне (https://vercel.com/login?next=%2Fapi%2Ffeedback-auth%3Fscope%3Dproducts-store-git-v2bugfixes-hexlet-components.vercel.app%26redirectUrl%3Dhttps%3A%252F%252Fvercel.live%252Flogin%252Fcallback%26accessScope%3DU2FsdGVkX1%252Ffnw4d3c4ZwImJ5%252B3iwLZfLud5mp5NWMz9zWn0xS2hBR3y9tWh6jOu)
 
