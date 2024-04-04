@@ -8,4 +8,17 @@ test-cases:
       Не работает смена языка в меню категория
     status: fail
 
+bugreports:
+  - summary: |
+      регистрация на сайте
+    environment: |
+      Google Chrome  Версия 103.0.5060.134 (Официальная сборка), (x86_64)
+      ОС MacOC Sierra v.10.12.6
+    steps-to-reproduce:  |
+      зайти на сайт(https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
+      нажать на log in to comment
+    expected-result: |
+      должна появится форма регистрации на данном сайте 
+    actual-result: |
+      Вы получаете форму регистрации на стороннем сайте в отдельном окне
 
