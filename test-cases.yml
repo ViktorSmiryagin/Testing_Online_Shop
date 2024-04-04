@@ -8,10 +8,9 @@
   test-data: |
     Тестовые данные: |
     Browser #Googlechrome
-    устройство #MacBook Air (13-inch, Late 2010)
-    
+    устройство #MacBook Air (13-inch, Late 2010)  
   steps:
-    - Входим на сайт
+    - Входим на сайт (https://hexlet-products-store.vercel.app/)
     - Открываем DevTools (путем нажатия клавишь: Command + Option + I )
     - Нажимаем кнопку «Toggle device toolb"
     - Выбираем устройства 
@@ -19,3 +18,22 @@
      Samsung galaxy s20(412х915)
   expected-result: |
     Открывается удобная для использования мобильная версий сайта
+
+---
+- summary: |
+    Проверить категории 
+  requirement: |
+    Проверить как выполняются фильтрация товаров по категории (smartphone)
+  prerequisites: ""
+  test-data: |
+    Тестовые данные: |
+    Browser #Googlechrome
+    устройство #MacBook Air (13-inch, Late 2010)
+  steps:
+    - Входим на сайт (https://hexlet-products-store.vercel.app/)
+    - Сайт должен быть на русском языке
+    - Нажимаем на кнопку со словом "категория"
+    - Выбираем категорию Смартфоны
+  expected-result: |
+    Открывается страница с различными мобильными устройствами 
+
