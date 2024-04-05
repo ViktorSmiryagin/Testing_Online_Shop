@@ -3,3 +3,4 @@
 ![photo1712324199](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/6c4ca838-7502-4327-93f4-7166f01c57cc)
 ![photo1712324173](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/c6558d6d-899c-4393-b498-69b24ea6103c)
 ![photo1712324142](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/9319e784-39e5-48d1-af72-42264fb0d337)
+![Снимок экрана 2024-04-05 в 17 25 38](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/c2bc835e-29ea-42a0-899a-7daa2613e74b)
