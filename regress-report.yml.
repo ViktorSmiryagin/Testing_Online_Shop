@@ -15,7 +15,7 @@ bugreports:
       Google Chrome  Версия 103.0.5060.134 (Официальная сборка), (x86_64)
       ОС MacOC Sierra v.10.12.6
     steps-to-reproduce:  |
-      зайти на сайт(https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
+      зайти на сайт
       нажать на log in to comment
     expected-result: |
       должна появится форма регистрации на данном сайте (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
