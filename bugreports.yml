@@ -6,7 +6,7 @@
     ОС MacOC Sierra v.10.12.6
     macbook air 
   steps-to-reproduce: |
-    1. Зайти на сайт(https://hexlet-products-store.vercel.app/)
+    1. Зайти на сайт
     2. Нажать на кнопку "язык"
   expected-result: На странице должно открыться меню с выбором языка из двух
     языков русский и английский и с мини картинкой флага соответствующий данному языку
@@ -24,7 +24,7 @@
     ОС MacOC Sierra v.10.12.6
     macbook air 
   steps-to-reproduce: |
-    1. Зайти на сайт(https://hexlet-products-store.vercel.app/)
+    1. Зайти на сайт
     2. Нажать на кнопку "язык"
     3. Поменять языка на русский язык
     4. открыть меню с категориями
