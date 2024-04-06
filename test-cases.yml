@@ -4,11 +4,9 @@
   requirement: |
     Проверить как выглядит внешний вид сайт на мобильных устройствах
   prerequisites: |
-   Сайт должен иметь мобильную версию
+   "no-data"
   test-data: |
-    Тестовые данные: |
-    Browser #Googlechrome
-    устройство #MacBook Air (13-inch, Late 2010)  
+    "no-data"  
   steps:
     - Входим на сайт (https://hexlet-products-store.vercel.app/)
     - Открываем DevTools (путем нажатия клавишь: Command + Option + I )
@@ -24,11 +22,9 @@
     Проверить категории 
   requirement: |
     Проверить как выполняются фильтрация товаров по категории (smartphone)
-  prerequisites: ""
+  prerequisites: ""no-data""
   test-data: |
-    Тестовые данные: |
-    Browser #Googlechrome
-    устройство #MacBook Air (13-inch, Late 2010)
+    "no-data"
   steps:
     - Входим на сайт (https://hexlet-products-store.vercel.app/)
     - Сайт должен быть на русском языке
@@ -43,11 +39,9 @@
   requirement: >
     Пользователь должен иметь возможность искать товары по ключевому
     слову или категории
-  prerequisites: ""
+  prerequisites: "no-data"
   test-data: |
-    Google Chrome  Версия 103.0.5060.134 (Официальная сборка), (x86_64)
-    ОС MacOC Sierra v.10.12.6
-    macbook air
+    "no-data"
   steps:
     - Зайти на сайт(https://hexlet-products-store.vercel.app/)
     - Ввести в поиске "Iphone"
@@ -59,11 +53,9 @@
     Проверка безопасности
   requirement: |
     Сайт должен быть безопасным и защищать данные пользователя
-  prerequisites: Открыта страница логина
+  prerequisites: "no-data"
   test-data: |
-    Тестовые данные: |
-    Browser #Googlechrome
-    устройство #MacBook Air (13-inch, Late 2010)  
+    "no-data"  
   steps:
     - Входим на сайт (https://hexlet-products-store.vercel.app/)
     - Открываем DevTools (путем нажатия клавишь: Command + Option + I )
