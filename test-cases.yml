@@ -1,15 +1,14 @@
 ---
 - summary: |
-    Проверить совместимость с другими устройствами 
+    Проверить совместимость с мобильными устройствами устройствами 
   requirement: |
-    Проверить как выглядит внешний вид сайт на мобильных устройствах
+    Сайт должен иметь мобильную версию
   prerequisites: |
    "no-data"
   test-data: |
     "no-data"  
   steps:
-    - Входим на сайт (https://hexlet-products-store.vercel.app/)
-    - Открываем DevTools (путем нажатия клавишь: Command + Option + I )
+    - Открываем DevTools 
     - Нажимаем кнопку «Toggle device toolb"
     - Выбираем устройства 
      Iphone XR(414x896)
@@ -26,7 +25,6 @@
   test-data: |
     "no-data"
   steps:
-    - Входим на сайт (https://hexlet-products-store.vercel.app/)
     - Сайт должен быть на русском языке
     - Нажимаем на кнопку со словом "категория"
     - Выбираем категорию Смартфоны
@@ -43,7 +41,6 @@
   test-data: |
     "no-data"
   steps:
-    - Зайти на сайт(https://hexlet-products-store.vercel.app/)
     - Ввести в поиске "Iphone"
   expected-result: |
     Пользователь должен увидеть увидеть айфоны в списке товара
@@ -57,8 +54,7 @@
   test-data: |
     "no-data"  
   steps:
-    - Входим на сайт (https://hexlet-products-store.vercel.app/)
-    - Открываем DevTools (путем нажатия клавишь: Command + Option + I )
+    - Открываем DevTools 
     - Переходим в раздел security
   expected-result: |
     This page is secure (valid HTTPS).
