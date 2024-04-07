@@ -123,3 +123,19 @@
   expected-result: |
     Корзина пуста
 
+---
+- summary: |
+    Проверить совместимость с устройствами устройствами 
+  requirement: |
+    Сайт должен быть доступен на различных устройствах  
+  prerequisites: |
+    "no-data"
+  test-data: |
+    "no-data"  
+  steps:
+    - Открываем DevTools
+    - Нажимаем кнопку «Toggle device toolb"
+    - Выбираем устройства Ipad pro
+  expected-result: |
+    Открывается версия сайта для ipad
+
