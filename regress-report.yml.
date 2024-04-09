@@ -1,24 +1,108 @@
 ---
-test-cases:
-  - summary: |
-      Не работает отображения флага возле английского языка 
-#не знаю является ли удаление картинок с флагом со всех языков исправление данной ошибки
-    status: pass
-  - summary: |
-      Не работает смена языка в меню категория
-    status: fail
+- summary: |
+    Проверить совместимость с мобильными устройствами устройствами
+  status: pass
 
+---
+- summary: |
+    Проверить фильтрацию по категории
+  status: pass
+---
+- summary: |
+    Проверка фильтра по ключевому слову
+  status: pass
+
+---
+- summary: |
+    Отображение добавленного товара
+  status: pass
+
+---
+- summary: |
+    Проверить совместимость с другими браузерами 
+  status: pass
+---
+- summary: |
+    Просмотр информации об товаре
+  status: pass
+---
+- summary: |
+    Проверить удаление товара из корзины 
+  status: pass
+
+---
+- summary: |
+    Проверить совместимость с устройствами  
+  status: pass
+
+---
+- summary: |
+    Отображение цены товара в корзине
+  status: pass
+
+---
+- summary: |
+    Проверка фильтра по цене 
+  status: pass
+
+---
+- summary: |
+    Отображение цены товара  
+  status: pass
+
+---
+- summary: |
+    Переход на другую страницу товаров
+  status: pass
+
+---
+- summary: |
+    отображение скидки товара #отображение какой процент скидки есть у товара  
+  status: pass
+
+
+
+---
 bugreports:
   - summary: |
       регистрация на сайте
     environment: |
-      Google Chrome  Версия 103.0.5060.134 (Официальная сборка), (x86_64)
+      FireFox  Версия 115.9.1esr (64-разрядный)
       ОС MacOC Sierra v.10.12.6
-    steps-to-reproduce:  |
-      зайти на сайт
+      macbook air
+    steps-to-reproduce: |
       нажать на log in to comment
     expected-result: |
-      должна появится форма регистрации на данном сайте (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
+      должна появится форма регистрации на данном сайте 
     actual-result: |
-      Вы получаете форму регистрации на стороннем сайте, в отдельном окне (https://vercel.com/login?next=%2Fapi%2Ffeedback-auth%3Fscope%3Dproducts-store-git-v2bugfixes-hexlet-components.vercel.app%26redirectUrl%3Dhttps%3A%252F%252Fvercel.live%252Flogin%252Fcallback%26accessScope%3DU2FsdGVkX1%252Ffnw4d3c4ZwImJ5%252B3iwLZfLud5mp5NWMz9zWn0xS2hBR3y9tWh6jOu)
+      Вы получаете форму регистрации на стороннем сайте, в отдельном окне 
+
+---
+- summary: |
+    Не переводятся категории на русский язык 
+  environment: |
+    FireFox  Версия 115.9.1esr (64-разрядный)
+    ОС MacOC Sierra v.10.12.6
+    macbook air
+  steps-to-reproduce: |
+    2. Нажать на кнопку "язык"
+    3. Поменять языка на русский язык
+    4. Открыть меню с категориями
+  expected-result: Все категории локализованы на русский
+  actual-result: Все категории продолжают отображаться на английском
+
+---
+- summary: |
+    Не переводятся описание товара на русский язык 
+  environment: |
+    Google Chrome  Версия 103.0.5060.134 (Официальная сборка), (x86_64)
+    ОС MacOC Sierra v.10.12.6
+    macbook air 
+  steps-to-reproduce: |
+    2. Нажать на кнопку "язык"
+    3. Поменять языка на русский язык
+    4. Открыть товар
+  expected-result: Описание товара локализовано на русский
+  actual-result: Описание товара продолжает отображаться на английском
+
 
