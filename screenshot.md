@@ -1,7 +1,6 @@
-![photo1712324371](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/a01c1706-7804-4b1d-96a0-b44a504528db)
-![photo1712324220](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/14a255d4-4428-4ca0-82e7-e4eb271f42b6)
-![photo1712324199](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/6c4ca838-7502-4327-93f4-7166f01c57cc)
-![photo1712324173](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/c6558d6d-899c-4393-b498-69b24ea6103c)
-![photo1712324142](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/9319e784-39e5-48d1-af72-42264fb0d337)
-![Снимок экрана 2024-04-05 в 17 25 38](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/c2bc835e-29ea-42a0-899a-7daa2613e74b)
+отбражение флага:
 
+![photo_5800677178533331295_x(1)](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/18c2b589-6916-4f53-a71c-0a2d16488e29)
+---
+Адаптивность: ![photo_5800677178533331294_y](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/cbbfe372-8ad2-4440-a8f5-462f266e709d)
+![photo_5800677178533331302_y](https://github.com/ownerea7/qa-engineer-project-84/assets/165492069/e920e967-723e-4785-8308-ac9f423bb562)
