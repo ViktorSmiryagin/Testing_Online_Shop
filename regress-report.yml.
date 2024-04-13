@@ -57,7 +57,7 @@
 ---
 bugreports:
   - summary: |
-      регистрация на сайте
+      Регистрация на сайте
     environment: |
       FireFox  Версия 115.9.1esr (64-разрядный)
       ОС MacOC Sierra v.10.12.6
