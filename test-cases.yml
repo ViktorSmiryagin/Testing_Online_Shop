@@ -65,7 +65,7 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    "no-data"
+    "Для тестирования используем BrowserStack"
   test-data: |
     "no-data"  
   steps:
